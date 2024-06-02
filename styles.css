@@ -38,6 +38,12 @@ body {
     border-radius: 1rem;
     overflow: hidden;
     background-color: #444;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
